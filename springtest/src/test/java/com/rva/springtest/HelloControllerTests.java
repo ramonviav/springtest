@@ -1,4 +1,4 @@
-package com.rva.springtest.web;
+package com.rva.springtest;
 
 import static org.junit.Assert.*;
 

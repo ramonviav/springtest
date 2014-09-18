@@ -1,8 +1,4 @@
+<%@ include file="/WEB-INF/views/include.jsp" %>
 
-<html>
-<HEAD> <TITLE>Example:: Spring Application</TITLE></HEAD>
-<body>
-	<h1>Example - Spring Application</h1> 
-	<p>This is my spring test ..</p>
-</body>
-</html>
+<%-- Redirected because we can't set the welcome page to a virtual URL. --%>
+<c:redirect url="/hello.htm"/>
