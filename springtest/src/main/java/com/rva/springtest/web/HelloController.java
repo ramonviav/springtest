@@ -1,4 +1,4 @@
-package com.rva.springtest;
+package com.rva.springtest.web;
 
 import java.io.IOException;
 import java.util.Date;
