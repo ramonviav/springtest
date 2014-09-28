@@ -11,6 +11,7 @@
        http://www.springframework.org/schema/mvc
        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
+	 <!-- 
 		<bean id="productManager" class="com.rva.springtest.service.SimpleProductManager">
          <property name="products">
             <list>
@@ -35,7 +36,8 @@
          <property name="description" value="Chair"/>
          <property name="price" value="22.79"/>
        </bean>
-
+		-->
+		
        <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
          <property name="basename" value="messages"/>
        </bean>
